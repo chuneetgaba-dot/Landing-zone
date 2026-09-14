@@ -1,0 +1,46 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Terraform variable files - secrets ho sakte hain
+
+*.tfvars.json
+
+# Terraform plan files
+*.tfplan
+*.plan
+
+# Terraform lock file
+# Usually KEEP this file in Git
+# .terraform.lock.hcl
+
+# Secrets / Environment files
+.env
+.env.*
+*.secret
+*.key
+*.pem
+
+# Azure CLI / credentials
+.azure/
+
+# Logs
+*.log
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Windows temporary files
+*.tmp
+*.temp
+
+# Backup files
+*.bak
+*~
